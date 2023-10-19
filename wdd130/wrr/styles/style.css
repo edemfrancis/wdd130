@@ -108,7 +108,7 @@
   
   nav a {
     text-align: center;
-    color: var(--paragraph-color-on-color);
+    color: #fcfbfb;
     text-decoration: none;
     padding: 35px;
   }
