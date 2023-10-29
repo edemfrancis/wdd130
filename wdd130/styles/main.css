@@ -36,3 +36,11 @@
     font-size: 1.2em;
   }
   
+  nav {
+    display: grid;
+    grid-template-columns: auto;
+  }
+  header{
+    display: grid;
+    grid-template-columns: auto auto auto;
+  }
