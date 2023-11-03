@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@200&family=Roboto+Serif:opsz,wght@8..144,200&display=swap');
+:root {
+  /* change the values below to your colors from your palette */
+  --primary-color: #5DD5A9   ;
+  --secondary-color: #ADAA99 ;
+  --accent1-color:#585F5C ;
+  --accent2-color: white;
+
+  /* change the values below to your chosen font(s) */
+  --heading-font: "Grenze Gotisch";
+  --paragraph-font: Roboto Serif, Helvetica, sans-serif;
+
+  /* these colors below should be chosen from among your palette colors above */
+  --headline-color-on-white: #0d1110;  /* headlines on a white background */ 
+  --headline-color-on-color: white; /* headlines on a colored background */ 
+  --paragraph-color-on-white: #0d1110; /* paragraph text on a white background */ 
+  --paragraph-color-on-color: #333635; /* paragraph text on a colored background */ 
+  --paragraph-background-color: #333635  ;
+  --nav-link-color: #c5d11d;
+  --nav-background-color: #585F5C;
+  --nav-hover-link-color: #adaa99;
+  --primary-color: #5DD5A9   ;
+  --nav-hover-background-color: #5dd5a9;
+}
+
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+header{
+    width: 100%;
+    background-color: #c5d11d;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.self, .self2{
+    text-align: center;
+}
+h1{
+    text-align: center;
+    color: var(--headline-color-on-color);
+}
+h3{
+    text-align: center;
+    color: var(--headline-color-on-color);
+}
+
+.join, .join2{
+    text-align: center;
+}
+.tag, .tag2{
+    text-decoration: none;
+    color: var(--headline-color-on-color);
+}
+#logo{
+}
+nav a {
+    color: white;
+    text-align: center;
+    margin: 9%;
+    text-decoration: none;
+}
+#logo{
+margin-left: 40%;
+}
+.logo2{
+    width: 200px;
+    border-radius: 100px;
+}
+body {
+    background-color: skyblue;
+    font-family: Raleway, Arial, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+  }
+nav{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 100%;
+    background-color: var(--nav-background-color);
+    
+}
+#employ{
+    background-color: var(--headline-color-on-color);
+    display: block;
+}
+.emp, .emp2{
+    width: 100%;
+    height: 100%;
+}
+#employ1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+#omo{
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr;
+    margin-top: -20%;
+}
+#note h3, .self{
+    color: black;
+}
