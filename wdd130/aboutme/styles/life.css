@@ -1,7 +1,28 @@
-div img {
-    align-items: center;
+body {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 4em;
+    font-size: 18px;
+    text-align: center;
+  }
+  
+#content{
+    margin: 0 auto;
 }
 
-body{
-    align-self: center;
+#content{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+p{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+
+img {
+    display: block;
+  margin: 0 auto;
+  max-width: 300px;
 }
