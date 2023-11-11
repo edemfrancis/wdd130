@@ -314,6 +314,16 @@ margin-top: -80px;
 h3{
   text-align: center;
 }
+#quest{
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+}
+.quest1, .quest2, .quest3{
+  border-style: dotted;
+  border-color: #000;
+  margin-top: 30px;
+  padding: 0px;
+}
 
 
 
