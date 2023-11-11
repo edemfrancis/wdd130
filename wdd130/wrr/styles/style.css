@@ -242,8 +242,6 @@ grid-row: 3/2;
   margin-top: 45px;
 }
 #center{
-  display: grid;
-  grid-template-columns: 5fr;
   align-items: center;
   background-color: var(--paragraph-background-color);
   border-style:groove;
@@ -261,10 +259,12 @@ grid-row: 3/2;
 background-color: var(--paragraph-background-color);
 margin-left: 60px;
 }
+.pex5{
+  text-align: center;
+}
 .h1, .p1{
   text-align: center;
 }
-p
 .h1{
   font-family: var(--heading-font);
 }
@@ -282,11 +282,23 @@ p
   z-index: 1;
   margin-top: 80px;
 }
+.try2:hover{
+  background-color: #c5d11d;
+}
+.try2{
+  background-color: #d9c2a3;
+  text-decoration: none;
+  font-size: 40px;
+  color: #000;
+  border-radius: 5px;
+}
+.ops{
+margin-top: -80px;
+}
 .try:hover {
   background-color: #c5d11d;
 }
 .try{
-  padding: 5px;
   background-color: #d9c2a3;
   color: black;
   text-decoration: none;
@@ -297,6 +309,7 @@ p
 }
 .try1{
   text-align: center;
+  margin-top: -60px;
 }
 h3{
   text-align: center;
