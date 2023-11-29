@@ -351,6 +351,33 @@ h3{
   width: 100%;}
 /* JOB SEEKERS CSS*/
 
+
+/* CSS FOR BETTER LIFE*/
+#life{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.better1{
+  width: 75%;
+  margin-left: 98px;
+}
+.better2{
+  width: 95.5%;
+  margin-left: -72px;
+}
+.p{
+  background-color: white;
+  padding: 40px;
+}
+#better{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-left: 100px;
+  align-content: center;
+}
+
+/*CSS FOR BETTER LIFE*/
+
 @media screen and (max-width: 900px) {
   #hero, .home-grid {
       display: block;
@@ -390,6 +417,7 @@ h3{
   }
   footer {
       margin-top: 25px;
+      background-color: white;
   }
 }
 
