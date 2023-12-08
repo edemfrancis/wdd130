@@ -145,6 +145,7 @@ h3{
   color: black;
 }
 nav a {
+  font-family: (--paragraph-font);
   color: white;
   
   margin: 9%;
@@ -184,7 +185,7 @@ nav{
 #note h3, .self{
   color: black;
 }
-h1, h3, h5, p{
+h1, h3, h5, h4, p{
   font-family: var(--paragraph-font);
 }
 h5{
@@ -284,7 +285,9 @@ border-radius: 700px;
   margin-left: 100px;
   align-content: center;
 }
-
+.bet{
+  border-radius: 40px;
+}
 /*CSS FOR BETTER LIFE*/
 
 @media screen and (max-width: 900px) {
