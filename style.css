@@ -18,29 +18,47 @@
     --paragraph-color-on-color: #333635; /* paragraph text on a colored background */ 
     --paragraph-background-color: #333635  ;
     --nav-link-color: #c5d11d;
-    --nav-background-color: #585F5C;
+    --nav-background-color: #c5d5db;
     --nav-hover-link-color: #adaa99;
     --primary-color: #5DD5A9   ;
     --nav-hover-background-color: #5dd5a9;
   }
 
+  header{
+    text-align: center;
+  }
+
+  #logo_link{
+    background-color: #0d1110;
+  }
   h1 {
     font-family: var(--heading-font);
     color: var(--headline-color-on-white);
   }
 
+  a{
+    text-decoration: none;
+  }
+
   nav {
     background-color: var(--nav-background-color);
-    line-height: 3em;
+    line-height: 2em;
     text-align: center;
     font-size: 1.2em;
+    justify-content: center;
   }
   
   nav {
     display: grid;
     grid-template-columns: auto;
   }
-  header{
-    display: grid;
-    grid-template-columns: auto auto auto;
+
+  nav a {
+    width: 300px;
+    margin: 1px;
+    background-color: #f9ffa1;
+  }
+
+  nav a:hover{
+    background-color: #c5d5db;
   }
